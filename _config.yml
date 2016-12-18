@@ -1,4 +1,3 @@
-markdown: kramdown
 safe: false
 permalink: /:categories/:title
 exclude:
@@ -45,10 +44,10 @@ meta:
     author:
         name: 穿军装的石子
         email: qinglai1957@gmail.com
-        disqus:                      # Disqus缩略标识
-        gcse: :     # Google自定义搜索标识ID
-        github:                           # GitHub账号
-        gravatar:38836deab9f6833754cd8f34f1f2cbf3# Gravatar头像标识
+        disqus:    1                                # Disqus缩略标识
+        gcse:      1                                # Google自定义搜索标识ID
+        github:    1                                # GitHub账号
+        gravatar:38836deab9f6833754cd8f34f1f2cbf3   # Gravatar头像标识
 
     disqus: disqus.com/embed.js                     # Disqus评论的JS地址
     gapi: http://www.google.com/jsapi               # Google API地址
