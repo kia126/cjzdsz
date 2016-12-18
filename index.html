@@ -1,0 +1,38 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+<title>穿军装的石子</title>
+{% include head.tpl %}
+<link rel="stylesheet" type="text/css" href="/assets/css/index.css" />
+</head>
+
+<body class="page-type-index">
+<div id="page">
+	<div id="card">
+		<header>
+			<img src="{{site.meta.gravatar}}{{site.meta.author.gravatar}}?s=80" width="80" height="80" />
+			<h1 data-translate="name">穿军装的石子</h1>
+			<h2 data-translate="title">一个铁道兵的回忆录，讲述青藏铁路一期工程施工连队的故事。</h2>
+		</header>
+		<ul>
+			<li id="link-works"><a href="works/"><i class="fa fa-briefcase"></i><span data-translate="works">词谱</span></a></li>
+			<li id="link-blog"><a href="blog/"><i class="fa fa-rss"></i><span data-translate="blog">博客</span></a></li>
+			<li id="link-mail" class="half"><a href="mailto:" class="mail"><i class="fa fa-envelope"></i><span></span></a></li>
+			<li id="link-wechat" class="quarter"><a href="http://weixin.qq.com/r/Ojrfx1vEuQbGrR_k928o" title="WeChat"><i class="fa fa-weixin"></i><span id="qrcode"></span></a></li>
+			<li id="link-github" class="quarter"><a href="https://github.com/" target="_blank"><i class="fa fa-github"></i><span>GitHub</span></a></li>
+			<li id="link-google-plus" class="quarter"><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i><span data-translate="google-plus">+我</span></a></li>
+			<li id="link-more" class="quarter"><a href="#more"><i class="fa fa-ellipsis-h"></i></a></li>
+		</ul>
+	</div>
+</div>
+
+<script type="text/javascript" src="http://elfjs.qiniudn.com/code/elf-0.5.0.min.js"></script>
+<script type='text/javascript' src='http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js'></script>
+<script type="text/javascript" src="http://cdn.staticfile.org/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+<script>jQuery(document).ready(function(){jQuery('#qrcode').qrcode({width: 264,height: 264,text: "http://weixin.qq.com/r/Ojrfx1vEuQbGrR_k928o"});});</script>
+<script type="text/javascript" src="/assets/js/site.js"></script>
+{% include baidu-stats.tpl %}
+</body>
+</html>
